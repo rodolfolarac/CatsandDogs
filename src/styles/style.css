@@ -7,7 +7,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(180deg, rgba(0, 76, 109, 0.7), #9dc6e0);
+    background-image: linear-gradient(180deg, rgba(0, 76, 109, 0.8), #9dc6e0);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,6 +18,8 @@ body {
 
 h1 {
     margin:10px;
+    font-size: 3rem;
+    color: #0d3046;
 }
 
 .main {

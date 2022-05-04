@@ -13,19 +13,12 @@ export class Vitrine {
          const btn = document.createElement('button')
 
          img.src = animal[0].url
-         btn.innerText = `Veja outro ${nameClass}`
+         btn.innerText = `See other ${nameClass}`
          this.eventButton(nameClass, mainPagina,btn,animal)
 
          card.append(img,btn)
 
          mainPagina.appendChild(card)
-
-
-
-
-
-        
-        
 
     }
 
@@ -42,15 +35,9 @@ export class Vitrine {
             }else {
                  newImg =  await Dog.chamarApi()
             }
-           
-           
-           
-
+   
            img.src = newImg[0].url
-
-
-            
-            
+          
         })
 
     }
