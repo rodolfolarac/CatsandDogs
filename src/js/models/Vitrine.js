@@ -13,7 +13,7 @@ export class Vitrine {
          const btn = document.createElement('button')
 
          img.src = animal[0].url
-         btn.innerText = `See other ${nameClass}`
+         btn.innerText = `See another ${nameClass}`
          this.eventButton(nameClass, mainPagina,btn,animal)
 
          card.append(img,btn)
